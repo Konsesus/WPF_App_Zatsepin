@@ -1,0 +1,23 @@
+﻿<Page x:Class="Зацепин_Михаил_3ИСП9_27.Pages.Page18"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Зацепин_Михаил_3ИСП9_27.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page18">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Background/photo1706261217.jpeg"></ImageBrush>
+        </Grid.Background>
+        <Image Margin="19,118,634,196" Source="/51c487fbee99f0a8e4bce293b3f65e66.png" Stretch="Fill"/>
+        <TextBlock x:Name="storyText"
+HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="18" Background="White" Grid.RowSpan="2"><Run Text="  "/><Run Text="Вы подошли к зданию гильдии. Оно выглядит огромным, красивым"/><Run Text=" и "/><Run Text="могучим."/><LineBreak/><Run Text="    "/><Run Text="Пока вы шли к зданию, почему-то все обсуждали каких-то &quot;"/><Run Text="элементалистов"/><Run Text="&quot;."/><LineBreak/><Run Text="Рассказывали про их недавную победу над драконом, что был на севере от "/><Run Text="города"/><Run Text="."/><LineBreak/><Run Language="ru-ru" Text="    Стоит взять во внимание этих людей. С ними не стоит шутить просто так.."/></TextBlock>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,332,0,0" Grid.Row="1">
+            <Button Content="Далее" Click="ButtonA_Click" Width="110" Height="30" Margin="20"></Button>
+        </StackPanel>
+        
+    </Grid>
+</Page>

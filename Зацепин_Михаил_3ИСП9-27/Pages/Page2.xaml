@@ -1,0 +1,21 @@
+﻿<Page x:Class="Зацепин_Михаил_3ИСП9_27.Pages.Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Зацепин_Михаил_3ИСП9_27.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page2">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Background/a22b3d9b001a48a7987dc20998e8048f_fuse_28825075_0.jpg"></ImageBrush>
+        </Grid.Background>
+        <TextBlock x:Name="storyText"
+   HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="White" FontSize="18" Grid.RowSpan="2"><Run Text="Вы решили попробовать странный гриб на вкус. Внезапно, у вас сводит руки, ноги."/><LineBreak/><Run Text="&#x9;               "/><Run Text="Вы падаете без сознания и погибаете."/></TextBlock>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,332,0,0" Grid.Row="1">
+            <Button Content="Начать заново" Click="ButtonA_Click" Width="100" Height="30" Margin="20"></Button>
+            <Button Content="Выйти" Click="ButtonB_Click" Width="100" Height="30" Margin="20"></Button>
+        </StackPanel>
+    </Grid>
+</Page>
